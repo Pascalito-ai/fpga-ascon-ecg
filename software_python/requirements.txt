@@ -1,0 +1,4 @@
+pyserial>=3.5
+matplotlib>=3.5
+neurokit2>=0.2
+numpy>=1.21
