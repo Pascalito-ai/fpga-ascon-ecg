@@ -1,0 +1,647 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Tue Mar 24 12:38:22 2026
+# Process ID         : 5784
+# Current directory  : C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.runs/synth_1
+# Command line       : vivado.exe -log Ascon_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Ascon_top.tcl
+# Log file           : C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.runs/synth_1/Ascon_top.vds
+# Journal file       : C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.runs/synth_1\vivado.jou
+# Running On         : HPV15
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 5 8645HS w/ Radeon 760M Graphics
+# CPU Frequency      : 4292 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 16391 MB
+# Swap memory        : 18253 MB
+# Total Virtual      : 34644 MB
+# Available Virtual  : 17907 MB
+#-----------------------------------------------------------
+source Ascon_top.tcl -notrace
+create_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 539.703 ; gain = 218.062
+Command: read_checkpoint -auto_incremental -incremental C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/utils_1/imports/synth_1/ascon.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/utils_1/imports/synth_1/ascon.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top Ascon_top -part xc7z020clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 15568
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1349.117 ; gain = 540.812
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'en_led_s', assumed default net type 'wire' [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/new/Ascon_top.sv:56]
+INFO: [Synth 8-6157] synthesizing module 'Ascon_top' [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/new/Ascon_top.sv:23]
+INFO: [Synth 8-226] default block is never used [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/new/Ascon_top.sv:108]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz' [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.runs/synth_1/.Xil/Vivado-5784-HPV15/realtime/clk_wiz_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz' (0#1) [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.runs/synth_1/.Xil/Vivado-5784-HPV15/realtime/clk_wiz_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'uart_core' [C:/Users/azert/Documents/lab_fpga_diallo/lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/uart_core.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'baud_generator' [C:/Users/azert/Documents/lab_fpga_diallo/lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/baud_generator.sv:1]
+INFO: [Synth 8-226] default block is never used [C:/Users/azert/Documents/lab_fpga_diallo/lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/baud_generator.sv:36]
+INFO: [Synth 8-6155] done synthesizing module 'baud_generator' (0#1) [C:/Users/azert/Documents/lab_fpga_diallo/lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/baud_generator.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'transmit' [C:/Users/azert/Documents/lab_fpga_diallo/lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/transmit.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'txbit_dcounter' [C:/Users/azert/Documents/lab_fpga_diallo/lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/txbit_dcounter.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'txbit_dcounter' (0#1) [C:/Users/azert/Documents/lab_fpga_diallo/lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/txbit_dcounter.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'tx_reg' [C:/Users/azert/Documents/lab_fpga_diallo/lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/tx_reg.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'tx_reg' (0#1) [C:/Users/azert/Documents/lab_fpga_diallo/lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/tx_reg.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'reg_sel' [C:/Users/azert/Documents/lab_fpga_diallo/lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/reg_sel.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'reg_sel' (0#1) [C:/Users/azert/Documents/lab_fpga_diallo/lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/reg_sel.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'transmit' (0#1) [C:/Users/azert/Documents/lab_fpga_diallo/lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/transmit.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'receive' [C:/Users/azert/Documents/lab_fpga_diallo/lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/receive.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'rx_reg' [C:/Users/azert/Documents/lab_fpga_diallo/lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/rx_reg.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'rx_reg' (0#1) [C:/Users/azert/Documents/lab_fpga_diallo/lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/rx_reg.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'rxbit_dcounter' [C:/Users/azert/Documents/lab_fpga_diallo/lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/rxbit_dcounter.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'rxbit_dcounter' (0#1) [C:/Users/azert/Documents/lab_fpga_diallo/lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/rxbit_dcounter.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'receive' (0#1) [C:/Users/azert/Documents/lab_fpga_diallo/lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/receive.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'uart_core' (0#1) [C:/Users/azert/Documents/lab_fpga_diallo/lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/uart_core.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'fsm_uart' [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/new/fsm_uart.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'fsm_dcompteur' [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/new/fsm_dcompteur.sv:21]
+	Parameter WIDTH bound to: 9 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fsm_dcompteur' (0#1) [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/new/fsm_dcompteur.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'trans_receive' [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/new/trans_receive.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'trans_receive' (0#1) [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/new/trans_receive.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'reg_shift_sv' [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/new/reg_shift_sv.sv:23]
+	Parameter WIDTH bound to: 128 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'reg_shift_sv' (0#1) [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/new/reg_shift_sv.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'reg_shift_sv__parameterized0' [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/new/reg_shift_sv.sv:23]
+	Parameter WIDTH bound to: 64 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'reg_shift_sv__parameterized0' (0#1) [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/new/reg_shift_sv.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'fsm_uart' (0#1) [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/new/fsm_uart.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_0' [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.runs/synth_1/.Xil/Vivado-5784-HPV15/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_0' (0#1) [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.runs/synth_1/.Xil/Vivado-5784-HPV15/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ascon' [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/imports/Sources_ascon/ascon.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'fsm_moore' [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/imports/Sources_ascon/fsm_moore.sv:4]
+INFO: [Synth 8-6155] done synthesizing module 'fsm_moore' (0#1) [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/imports/Sources_ascon/fsm_moore.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'compteur_double_init' [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/imports/Sources_ascon/compteur_double_init.sv:12]
+INFO: [Synth 8-6155] done synthesizing module 'compteur_double_init' (0#1) [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/imports/Sources_ascon/compteur_double_init.sv:12]
+INFO: [Synth 8-6157] synthesizing module 'Permutation' [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/imports/Sources_ascon/Permutation.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'mux_state' [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/imports/Sources_ascon/mux_state.sv:12]
+INFO: [Synth 8-6155] done synthesizing module 'mux_state' (0#1) [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/imports/Sources_ascon/mux_state.sv:12]
+INFO: [Synth 8-6157] synthesizing module 'xor_begin_perm' [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/imports/Sources_ascon/xor_begin_perm.sv:12]
+INFO: [Synth 8-6155] done synthesizing module 'xor_begin_perm' (0#1) [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/imports/Sources_ascon/xor_begin_perm.sv:12]
+INFO: [Synth 8-6157] synthesizing module 'register_w_en' [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/imports/Sources_ascon/register_w_en.sv:12]
+	Parameter nb_bits_g bound to: 64 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'register_w_en' (0#1) [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/imports/Sources_ascon/register_w_en.sv:12]
+INFO: [Synth 8-6157] synthesizing module 'Pc' [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/imports/Sources_ascon/Pc.sv:4]
+INFO: [Synth 8-6155] done synthesizing module 'Pc' (0#1) [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/imports/Sources_ascon/Pc.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'Ps' [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/imports/Sources_ascon/Ps.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'sbox' [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/imports/Sources_ascon/Sbox.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'sbox' (0#1) [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/imports/Sources_ascon/Sbox.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'Ps' (0#1) [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/imports/Sources_ascon/Ps.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'Pl' [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/imports/Sources_ascon/Pl.sv:4]
+INFO: [Synth 8-6155] done synthesizing module 'Pl' (0#1) [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/imports/Sources_ascon/Pl.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'xor_end_perm' [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/imports/Sources_ascon/xor_end_perm.sv:12]
+INFO: [Synth 8-6155] done synthesizing module 'xor_end_perm' (0#1) [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/imports/Sources_ascon/xor_end_perm.sv:12]
+INFO: [Synth 8-6157] synthesizing module 'state_register_w_en' [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/imports/Sources_ascon/state_register_w_en.sv:12]
+INFO: [Synth 8-6155] done synthesizing module 'state_register_w_en' (0#1) [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/imports/Sources_ascon/state_register_w_en.sv:12]
+INFO: [Synth 8-6157] synthesizing module 'register_w_en__parameterized0' [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/imports/Sources_ascon/register_w_en.sv:12]
+	Parameter nb_bits_g bound to: 128 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'register_w_en__parameterized0' (0#1) [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/imports/Sources_ascon/register_w_en.sv:12]
+INFO: [Synth 8-6155] done synthesizing module 'Permutation' (0#1) [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/imports/Sources_ascon/Permutation.sv:4]
+INFO: [Synth 8-6155] done synthesizing module 'ascon' (0#1) [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/imports/Sources_ascon/ascon.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'cpt' [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/new/cpt.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'cpt' (0#1) [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/new/cpt.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'drive_ascon' [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/new/drive_ascon.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'drive_ascon' (0#1) [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/new/drive_ascon.sv:23]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/new/Ascon_top.sv:261]
+INFO: [Synth 8-6157] synthesizing module 'ila_0' [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.runs/synth_1/.Xil/Vivado-5784-HPV15/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ila_0' (0#1) [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.runs/synth_1/.Xil/Vivado-5784-HPV15/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Ascon_top' (0#1) [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/new/Ascon_top.sv:23]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila_test'. This will prevent further optimization [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/new/Ascon_top.sv:261]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'UART_Core'. This will prevent further optimization [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/new/Ascon_top.sv:148]
+WARNING: [Synth 8-3848] Net dinb_ct_s in module/entity Ascon_top does not have driver. [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/sources_1/new/Ascon_top.sv:71]
+WARNING: [Synth 8-3917] design Ascon_top has port RTS_o driven by constant 0
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1484.379 ; gain = 676.074
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1484.379 ; gain = 676.074
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1484.379 ; gain = 676.074
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.104 . Memory (MB): peak = 1484.379 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'data_mem'
+Finished Parsing XDC File [c:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'data_mem'
+Parsing XDC File [c:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'cipher_tag_mem'
+Finished Parsing XDC File [c:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'cipher_tag_mem'
+Parsing XDC File [c:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.gen/sources_1/ip/clk_wiz/clk_wiz/clk_wiz_in_context.xdc] for cell 'clock_50mhz'
+Finished Parsing XDC File [c:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.gen/sources_1/ip/clk_wiz/clk_wiz/clk_wiz_in_context.xdc] for cell 'clock_50mhz'
+Parsing XDC File [c:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.gen/sources_1/ip/ila_0/ila_0/ila_0_in_context.xdc] for cell 'ila_test'
+Finished Parsing XDC File [c:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.gen/sources_1/ip/ila_0/ila_0/ila_0_in_context.xdc] for cell 'ila_test'
+Parsing XDC File [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/constrs_1/new/ctr_top.xdc]
+WARNING: [Vivado 12-507] No nets matched 'RTS_o_OBUF'. [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/constrs_1/new/ctr_top.xdc:16]
+WARNING: [Vivado 12-507] No nets matched 'Rx_i_IBUF'. [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/constrs_1/new/ctr_top.xdc:17]
+WARNING: [Vivado 12-507] No nets matched 'en_led_s'. [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/constrs_1/new/ctr_top.xdc:18]
+WARNING: [Vivado 12-507] No nets matched 'RxData_s[0]'. [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/constrs_1/new/ctr_top.xdc:19]
+WARNING: [Vivado 12-507] No nets matched 'RxData_s[1]'. [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/constrs_1/new/ctr_top.xdc:20]
+WARNING: [Vivado 12-507] No nets matched 'RxData_s[2]'. [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/constrs_1/new/ctr_top.xdc:21]
+WARNING: [Vivado 12-507] No nets matched 'RxData_s[3]'. [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/constrs_1/new/ctr_top.xdc:22]
+WARNING: [Vivado 12-507] No nets matched 'RxData_s[4]'. [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/constrs_1/new/ctr_top.xdc:23]
+WARNING: [Vivado 12-507] No nets matched 'RxData_s[5]'. [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/constrs_1/new/ctr_top.xdc:24]
+WARNING: [Vivado 12-507] No nets matched 'RxData_s[6]'. [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/constrs_1/new/ctr_top.xdc:25]
+WARNING: [Vivado 12-507] No nets matched 'RxData_s[7]'. [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/constrs_1/new/ctr_top.xdc:26]
+Finished Parsing XDC File [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/constrs_1/new/ctr_top.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/constrs_1/new/ctr_top.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/Ascon_top_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.srcs/constrs_1/new/ctr_top.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Ascon_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Ascon_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1591.680 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.039 . Memory (MB): peak = 1591.680 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1591.680 ; gain = 783.375
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1591.680 ; gain = 783.375
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1591.680 ; gain = 783.375
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'transmit'
+INFO: [Synth 8-802] inferred FSM for state register 'etat_p_reg' in module 'receive'
+INFO: [Synth 8-802] inferred FSM for state register 'Ep_reg' in module 'fsm_uart'
+INFO: [Synth 8-802] inferred FSM for state register 'Ep_reg' in module 'fsm_moore'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'drive_ascon'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                              000 | 00000000000000000000000000000000
+                  load_0 |                              001 | 00000000000000000000000000000001
+                  load_1 |                              010 | 00000000000000000000000000000010
+                 shift_0 |                              011 | 00000000000000000000000000000011
+                 shift_1 |                              100 | 00000000000000000000000000000100
+                    stop |                              101 | 00000000000000000000000000000101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'sequential' in module 'transmit'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    Idle |                       0000000001 | 00000000000000000000000000000000
+               Start_Rx0 |                       0000000010 | 00000000000000000000000000000001
+               Start_Rx1 |                       0000000100 | 00000000000000000000000000000010
+                  Rx_OVF |                       0000001000 | 00000000000000000000000000001001
+                 Edge_Rx |                       0000010000 | 00000000000000000000000000000011
+                Stop_Rx0 |                       0000100000 | 00000000000000000000000000000110
+                Stop_Rx1 |                       0001000000 | 00000000000000000000000000000111
+                Stop_Rx2 |                       0010000000 | 00000000000000000000000000001000
+               Shift_Rx0 |                       0100000000 | 00000000000000000000000000000100
+               Shift_Rx1 |                       1000000000 | 00000000000000000000000000000101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'etat_p_reg' using encoding 'one-hot' in module 'receive'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |             00000000000000000001 | 00000000000000000000000000000000
+                init_cmd |             00000000000000000010 | 00000000000000000000000000000001
+             wait_rx_key |             00000000000000000100 | 00000000000000000000000000000010
+               stock_key |             00000000000000001000 | 00000000000000000000000000000011
+           wait_rx_nonce |             00000000000000010000 | 00000000000000000000000000000100
+             stock_nonce |             00000000000000100000 | 00000000000000000000000000000101
+              wait_rx_ad |             00000000000001000000 | 00000000000000000000000000000110
+                stock_ad |             00000000000010000000 | 00000000000000000000000000000111
+             wait_rx_mem |             00000000000100000000 | 00000000000000000000000000001000
+               stock_mem |             00000000001000000000 | 00000000000000000000000000001001
+          execute_cipher |             00000000010000000000 | 00000000000000000000000000001010
+             wait_cipher |             00000000100000000000 | 00000000000000000000000000001011
+               init_read |             00000001000000000000 | 00000000000000000000000000001100
+              wait_ram_1 |             00000010000000000000 | 00000000000000000000000000001101
+              wait_ram_2 |             00000100000000000000 | 00000000000000000000000000001110
+           send_data_mem |             00001000000000000000 | 00000000000000000000000000001111
+           wait_tx_ready |             00010000000000000000 | 00000000000000000000000000010000
+                  send_o |             00100000000000000000 | 00000000000000000000000000010010
+                  send_k |             01000000000000000000 | 00000000000000000000000000010011
+                 send_lf |             10000000000000000000 | 00000000000000000000000000010100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'Ep_reg' using encoding 'one-hot' in module 'fsm_uart'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |       00000000000000000000000001 | 00000000000000000000000000000000
+               conf_init |       00000000000000000000000010 | 00000000000000000000000000000001
+              start_init |       00000000000000000000000100 | 00000000000000000000000000000010
+                    init |       00000000000000000000001000 | 00000000000000000000000000000011
+                end_init |       00000000000000000000010000 | 00000000000000000000000000000100
+               idle_next |       00000000000000000000100000 | 00000000000000000000000000000101
+                 conf_da |       00000000000000000001000000 | 00000000000000000000000000000111
+                start_da |       00000000000000000010000000 | 00000000000000000000000000001000
+                      da |       00000000000000000100000000 | 00000000000000000000000000001001
+                  end_da |       00000000000000001000000000 | 00000000000000000000000000001010
+                 idle_da |       00000000000000010000000000 | 00000000000000000000000000000110
+       conf_first_cipher |       00000000000000100000000000 | 00000000000000000000000000001011
+            first_cipher |       00000000000001000000000000 | 00000000000000000000000000001100
+             conf_cipher |       00000000000010000000000000 | 00000000000000000000000000001110
+            start_cipher |       00000000000100000000000000 | 00000000000000000000000000001111
+                cipherP0 |       00000000001000000000000000 | 00000000000000000000000000010000
+                  cipher |       00000000010000000000000000 | 00000000000000000000000000010001
+              end_cipher |       00000000100000000000000000 | 00000000000000000000000000010010
+             idle_cipher |       00000001000000000000000000 | 00000000000000000000000000001101
+                conf_tag |       00000010000000000000000000 | 00000000000000000000000000010011
+               start_tag |       00000100000000000000000000 | 00000000000000000000000000010100
+                   tagP0 |       00001000000000000000000000 | 00000000000000000000000000010101
+                     tag |       00010000000000000000000000 | 00000000000000000000000000010110
+                 end_tag |       00100000000000000000000000 | 00000000000000000000000000010111
+            wait_restart |       01000000000000000000000000 | 00000000000000000000000000011000
+            idle_restart |       10000000000000000000000000 | 00000000000000000000000000011001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'Ep_reg' using encoding 'one-hot' in module 'fsm_moore'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                  000000000000001 | 00000000000000000000000000000000
+                conf_cpt |                  000000000000010 | 00000000000000000000000000000001
+              init_start |                  000000000000100 | 00000000000000000000000000000010
+               init_idle |                  000000000001000 | 00000000000000000000000000000011
+                init_end |                  000000000010000 | 00000000000000000000000000000100
+                ad_start |                  000000000100000 | 00000000000000000000000000000101
+                 ad_idle |                  000000001000000 | 00000000000000000000000000000110
+                  ad_end |                  000000010000000 | 00000000000000000000000000000111
+                pt_start |                  000000100000000 | 00000000000000000000000000001000
+                 pt_idle |                  000001000000000 | 00000000000000000000000000001001
+                  pt_end |                  000010000000000 | 00000000000000000000000000001010
+               tag_start |                  000100000000000 | 00000000000000000000000000001011
+                tag_idle |                  001000000000000 | 00000000000000000000000000001100
+            tag_wait_mem |                  010000000000000 | 00000000000000000000000000001101
+                 tag_end |                  100000000000000 | 00000000000000000000000000001110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'one-hot' in module 'drive_ascon'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1591.680 ; gain = 783.375
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   16 Bit       Adders := 2     
+	   2 Input    9 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 2     
+	   2 Input    5 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 3     
+	   2 Input    3 Bit       Adders := 1     
++---XORs : 
+	   2 Input    128 Bit         XORs := 2     
+	   2 Input     64 Bit         XORs := 1     
+	   3 Input     64 Bit         XORs := 5     
+	   2 Input      8 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	              128 Bit    Registers := 3     
+	               64 Bit    Registers := 8     
+	               16 Bit    Registers := 3     
+	               10 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 6     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input  128 Bit        Muxes := 2     
+	   2 Input   64 Bit        Muxes := 8     
+	  26 Input   26 Bit        Muxes := 1     
+	   2 Input   26 Bit        Muxes := 13    
+	  20 Input   20 Bit        Muxes := 1     
+	   2 Input   20 Bit        Muxes := 15    
+	   7 Input   20 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 1     
+	  15 Input   15 Bit        Muxes := 1     
+	   2 Input   15 Bit        Muxes := 6     
+	   8 Input   13 Bit        Muxes := 1     
+	   2 Input   10 Bit        Muxes := 10    
+	   6 Input   10 Bit        Muxes := 1     
+	  10 Input   10 Bit        Muxes := 1     
+	   2 Input    9 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 5     
+	  19 Input    8 Bit        Muxes := 1     
+	   6 Input    8 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 3     
+	  15 Input    5 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 4     
+	   6 Input    4 Bit        Muxes := 1     
+	   6 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 7     
+	   3 Input    3 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 11    
+	   6 Input    1 Bit        Muxes := 5     
+	  10 Input    1 Bit        Muxes := 1     
+	   3 Input    1 Bit        Muxes := 2     
+	  19 Input    1 Bit        Muxes := 6     
+	  26 Input    1 Bit        Muxes := 10    
+	  15 Input    1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3917] design Ascon_top has port RTS_o driven by constant 0
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 1591.680 ; gain = 783.375
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++------------+------------------------------------------------+---------------+----------------+
+|Module Name | RTL Object                                     | Depth x Width | Implemented As | 
++------------+------------------------------------------------+---------------+----------------+
+|sbox        | sbox_o                                         | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[0].sbox_u/sbox_o  | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[1].sbox_u/sbox_o  | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[2].sbox_u/sbox_o  | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[3].sbox_u/sbox_o  | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[4].sbox_u/sbox_o  | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[5].sbox_u/sbox_o  | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[6].sbox_u/sbox_o  | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[7].sbox_u/sbox_o  | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[8].sbox_u/sbox_o  | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[9].sbox_u/sbox_o  | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[10].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[11].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[12].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[13].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[14].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[15].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[16].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[17].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[18].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[19].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[20].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[21].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[22].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[23].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[24].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[25].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[26].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[27].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[28].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[29].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[30].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[31].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[32].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[33].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[34].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[35].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[36].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[37].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[38].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[39].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[40].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[41].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[42].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[43].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[44].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[45].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[46].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[47].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[48].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[49].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[50].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[51].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[52].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[53].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[54].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[55].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[56].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[57].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[58].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[59].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[60].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[61].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[62].sbox_u/sbox_o | 32x5          | LUT            | 
+|ascon       | U3/Ps_instance/generate_sbox[63].sbox_u/sbox_o | 32x5          | LUT            | 
++------------+------------------------------------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:42 ; elapsed = 00:00:44 . Memory (MB): peak = 1686.703 ; gain = 878.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:46 ; elapsed = 00:00:48 . Memory (MB): peak = 1796.789 ; gain = 988.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 1796.789 ; gain = 988.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[63]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[62]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[61]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[60]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[59]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[58]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[57]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[56]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[55]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[54]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[53]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[52]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[51]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[50]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[49]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[48]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[47]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[46]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[45]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[44]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[43]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[42]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[41]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[40]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[39]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[38]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[37]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[36]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[35]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[34]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[33]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[32]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[31]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[30]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[29]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[28]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[27]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[26]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[25]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[24]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[23]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[22]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[21]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[20]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[19]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[18]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[17]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[16]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[15]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[14]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[13]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[12]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[11]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[10]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[9]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[8]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[7]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[6]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[5]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[4]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[3]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[2]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[1]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module cipher_tag_mem has unconnected pin dinb[0]
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:52 ; elapsed = 00:00:55 . Memory (MB): peak = 1969.875 ; gain = 1161.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:52 ; elapsed = 00:00:55 . Memory (MB): peak = 1969.875 ; gain = 1161.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:53 ; elapsed = 00:00:55 . Memory (MB): peak = 1969.875 ; gain = 1161.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:53 ; elapsed = 00:00:55 . Memory (MB): peak = 1969.875 ; gain = 1161.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:53 ; elapsed = 00:00:55 . Memory (MB): peak = 1969.875 ; gain = 1161.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:53 ; elapsed = 00:00:55 . Memory (MB): peak = 1969.875 ; gain = 1161.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz       |         1|
+|2     |blk_mem_gen_0 |         2|
+|3     |ila_0         |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+--------------+------+
+|      |Cell          |Count |
++------+--------------+------+
+|1     |blk_mem_gen   |     1|
+|2     |blk_mem_gen_0 |     1|
+|3     |clk_wiz       |     1|
+|4     |ila           |     1|
+|5     |CARRY4        |    14|
+|6     |LUT1          |     4|
+|7     |LUT2          |    50|
+|8     |LUT3          |   312|
+|9     |LUT4          |   287|
+|10    |LUT5          |   253|
+|11    |LUT6          |   390|
+|12    |MUXF7         |     2|
+|13    |FDCE          |   767|
+|14    |FDPE          |    17|
+|15    |FDRE          |   320|
+|16    |IBUF          |     2|
+|17    |OBUF          |     2|
++------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:53 ; elapsed = 00:00:55 . Memory (MB): peak = 1969.875 ; gain = 1161.570
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 64 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:38 ; elapsed = 00:00:52 . Memory (MB): peak = 1969.875 ; gain = 1054.270
+Synthesis Optimization Complete : Time (s): cpu = 00:00:53 ; elapsed = 00:00:56 . Memory (MB): peak = 1969.875 ; gain = 1161.570
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.063 . Memory (MB): peak = 1978.973 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1982.648 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: fe2c333
+INFO: [Common 17-83] Releasing license: Synthesis
+104 Infos, 16 Warnings, 64 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:59 ; elapsed = 00:01:05 . Memory (MB): peak = 1982.648 ; gain = 1407.133
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1982.648 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/azert/Documents/lab_fpga_diallo/fpga_version_final/fpga_version_final.runs/synth_1/Ascon_top.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file Ascon_top_utilization_synth.rpt -pb Ascon_top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 24 12:39:44 2026...

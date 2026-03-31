@@ -1,0 +1,2 @@
+c_shift_ram_0_sim_netlist.v,verilog,xil_defaultlib,../../../../ascon_version_registre.gen/sources_1/ip/c_shift_ram_0_1/c_shift_ram_0_sim_netlist.v,incdir="../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef"
+glbl.v,Verilog,xil_defaultlib,glbl.v

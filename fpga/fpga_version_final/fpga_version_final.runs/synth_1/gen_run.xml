@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1774352300" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/ascon.dcp">
+  <File Type="REPORTS-TCL" Name="Ascon_top_reports.tcl"/>
+  <File Type="RDS-UTIL" Name="Ascon_top_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Ascon_top_utilization_synth.pb"/>
+  <File Type="PA-TCL" Name="Ascon_top.tcl"/>
+  <File Type="RDS-RDS" Name="Ascon_top.vds"/>
+  <File Type="RDS-DCP" Name="Ascon_top.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_ascon/ascon_pack.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/Sources_ascon/ascon_pack.sv"/>
+        <Attr Name="ImportTime" Val="1771849848"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_ascon/Pc.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/Sources_ascon/Pc.sv"/>
+        <Attr Name="ImportTime" Val="1771849848"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_ascon/Permutation.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/Sources_ascon/Permutation.sv"/>
+        <Attr Name="ImportTime" Val="1771849848"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_ascon/Pl.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/Sources_ascon/Pl.sv"/>
+        <Attr Name="ImportTime" Val="1771849848"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_ascon/Ps.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/Sources_ascon/Ps.sv"/>
+        <Attr Name="ImportTime" Val="1771849848"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_ascon/Sbox.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/Sources_ascon/Sbox.sv"/>
+        <Attr Name="ImportTime" Val="1771849848"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_ascon/ascon.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/Sources_ascon/ascon.sv"/>
+        <Attr Name="ImportTime" Val="1771849848"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/source/uart_pkg.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/uart_pkg.sv"/>
+        <Attr Name="ImportTime" Val="1770814336"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/source/baud_generator.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/baud_generator.sv"/>
+        <Attr Name="ImportTime" Val="1770814336"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_ascon/compteur_double_init.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/Sources_ascon/compteur_double_init.sv"/>
+        <Attr Name="ImportTime" Val="1771849848"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cpt.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/drive_ascon.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fsm_dcompteur.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_ascon/fsm_moore.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/Sources_ascon/fsm_moore.sv"/>
+        <Attr Name="ImportTime" Val="1771849848"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fsm_uart.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_ascon/mux_state.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/Sources_ascon/mux_state.sv"/>
+        <Attr Name="ImportTime" Val="1771849848"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/source/receive.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/receive.sv"/>
+        <Attr Name="ImportTime" Val="1773847794"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/source/reg_sel.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/reg_sel.sv"/>
+        <Attr Name="ImportTime" Val="1770814336"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/reg_shift_sv.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_ascon/register_w_en.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/Sources_ascon/register_w_en.sv"/>
+        <Attr Name="ImportTime" Val="1771849848"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/source/rx_reg.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/rx_reg.sv"/>
+        <Attr Name="ImportTime" Val="1770814336"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/source/rxbit_dcounter.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/rxbit_dcounter.sv"/>
+        <Attr Name="ImportTime" Val="1770814336"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_ascon/state_register_w_en.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/Sources_ascon/state_register_w_en.sv"/>
+        <Attr Name="ImportTime" Val="1771849848"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/trans_receive.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/source/transmit.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/transmit.sv"/>
+        <Attr Name="ImportTime" Val="1770814336"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/source/tx_reg.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/tx_reg.sv"/>
+        <Attr Name="ImportTime" Val="1770814336"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/source/txbit_dcounter.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/txbit_dcounter.sv"/>
+        <Attr Name="ImportTime" Val="1770814336"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/source/uart_core.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/uart_core.sv"/>
+        <Attr Name="ImportTime" Val="1770814336"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_ascon/xor_begin_perm.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/Sources_ascon/xor_begin_perm.sv"/>
+        <Attr Name="ImportTime" Val="1771849848"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_ascon/xor_end_perm.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/Sources_ascon/xor_end_perm.sv"/>
+        <Attr Name="ImportTime" Val="1771849848"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Ascon_top.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Ascon_top"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/ctr_top.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/ascon.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz"/>
+  <BlockFileSet Type="BlockSrcs" Name="ila_0"/>
+</GenRun>

@@ -1,0 +1,42 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef" --include "../../../../ascon_version_registre_enhanced_final.ip_user_files/ipstatic" \
+"../../../../ascon_version_registre_enhanced_final.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" \
+
+sv xil_defaultlib  --include "../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef" --include "../../../../ascon_version_registre_enhanced_final.ip_user_files/ipstatic" \
+"../../../../ascon_version_registre_enhanced_final.srcs/sources_1/imports/Sources_ascon/ascon_pack.sv" \
+"../../../../ascon_version_registre_enhanced_final.srcs/sources_1/imports/Sources_ascon/Pc.sv" \
+"../../../../ascon_version_registre_enhanced_final.srcs/sources_1/imports/Sources_ascon/Permutation.sv" \
+"../../../../ascon_version_registre_enhanced_final.srcs/sources_1/imports/Sources_ascon/Pl.sv" \
+"../../../../ascon_version_registre_enhanced_final.srcs/sources_1/imports/Sources_ascon/Ps.sv" \
+"../../../../ascon_version_registre_enhanced_final.srcs/sources_1/imports/Sources_ascon/Sbox.sv" \
+"../../../../ascon_version_registre_enhanced_final.srcs/sources_1/imports/Sources_ascon/ascon.sv" \
+"../../../../../lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/uart_pkg.sv" \
+"../../../../../lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/baud_generator.sv" \
+"../../../../ascon_version_registre_enhanced_final.srcs/sources_1/imports/Sources_ascon/compteur_double_init.sv" \
+"../../../../ascon_version_registre_enhanced_final.srcs/sources_1/new/cpt.sv" \
+"../../../../ascon_version_registre_enhanced_final.srcs/sources_1/new/drive_ascon.sv" \
+"../../../../ascon_version_registre_enhanced_final.srcs/sources_1/new/fsm_dcompteur.sv" \
+"../../../../ascon_version_registre_enhanced_final.srcs/sources_1/imports/Sources_ascon/fsm_moore.sv" \
+"../../../../ascon_version_registre_enhanced_final.srcs/sources_1/new/fsm_uart.sv" \
+"../../../../ascon_version_registre_enhanced_final.srcs/sources_1/imports/Sources_ascon/mux_state.sv" \
+"../../../../../lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/receive.sv" \
+"../../../../../lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/reg_sel.sv" \
+"../../../../ascon_version_registre_enhanced_final.srcs/sources_1/new/reg_shift_sv.sv" \
+"../../../../ascon_version_registre_enhanced_final.srcs/sources_1/imports/Sources_ascon/register_w_en.sv" \
+"../../../../../lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/rx_reg.sv" \
+"../../../../../lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/rxbit_dcounter.sv" \
+"../../../../ascon_version_registre_enhanced_final.srcs/sources_1/imports/Sources_ascon/state_register_w_en.sv" \
+"../../../../ascon_version_registre_enhanced_final.srcs/sources_1/new/trans_receive.sv" \
+"../../../../../lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/transmit.sv" \
+"../../../../../lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/tx_reg.sv" \
+"../../../../../lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/txbit_dcounter.sv" \
+"../../../../../lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/uart_core.sv" \
+"../../../../ascon_version_registre_enhanced_final.srcs/sources_1/imports/Sources_ascon/xor_begin_perm.sv" \
+"../../../../ascon_version_registre_enhanced_final.srcs/sources_1/imports/Sources_ascon/xor_end_perm.sv" \
+"../../../../ascon_version_registre_enhanced_final.srcs/sim_1/new/ascon_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

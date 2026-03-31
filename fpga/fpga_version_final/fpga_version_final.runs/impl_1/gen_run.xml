@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1774352300">
+  <File Type="REPORTS-TCL" Name="Ascon_top_reports.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="Ascon_top_power_summary_routed.pb"/>
+  <File Type="BITSTR-MMI" Name="Ascon_top.mmi"/>
+  <File Type="OPT-DRC" Name="Ascon_top_drc_opted.rpt"/>
+  <File Type="BG-DRC" Name="Ascon_top.drc"/>
+  <File Type="ROUTE-STATUS-PB" Name="Ascon_top_route_status.pb"/>
+  <File Type="BG-BGN" Name="Ascon_top.bgn"/>
+  <File Type="PLACE-UTIL" Name="Ascon_top_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Ascon_top_utilization_placed.pb"/>
+  <File Type="PLACE-IO" Name="Ascon_top_io_placed.rpt"/>
+  <File Type="BG-BIN" Name="Ascon_top.bin"/>
+  <File Type="PLACE-CTRL" Name="Ascon_top_control_sets_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="Ascon_top_power_routed.rpx"/>
+  <File Type="BITSTR-MSK" Name="Ascon_top.msk"/>
+  <File Type="BITSTR-RBT" Name="Ascon_top.rbt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Ascon_top_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Ascon_top_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Ascon_top_route_status.rpt"/>
+  <File Type="PA-TCL" Name="Ascon_top.tcl"/>
+  <File Type="ROUTE-PWR" Name="Ascon_top_power_routed.rpt"/>
+  <File Type="ROUTE-DRC" Name="Ascon_top_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="Ascon_top_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="Ascon_top_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="Ascon_top.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Ascon_top_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Ascon_top_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Ascon_top.ltx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Ascon_top_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-SIMILARITY" Name="Ascon_top_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="Ascon_top.vdi"/>
+  <File Type="ROUTE-CLK" Name="Ascon_top_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Ascon_top_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Ascon_top_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Ascon_top_bus_skew_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Ascon_top_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Ascon_top_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Ascon_top_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Ascon_top_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Ascon_top_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="Ascon_top.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Ascon_top_bus_skew_postroute_physopted.pb"/>
+  <File Type="BITSTR-NKY" Name="Ascon_top.nky"/>
+  <File Type="BITSTR-BMM" Name="Ascon_top_bd.bmm"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-HWDEF" Name="Ascon_top.hwdef"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Ascon_top_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DCP" Name="Ascon_top_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Ascon_top_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Ascon_top_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMING-PB" Name="Ascon_top_timing_summary_routed.pb"/>
+  <File Type="OPT-DCP" Name="Ascon_top_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="Ascon_top_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="Ascon_top_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Ascon_top_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="Ascon_top_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Ascon_top_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Ascon_top_postroute_physopt_bb.dcp"/>
+  <File Type="PDI-FILE" Name="Ascon_top.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="Ascon_top_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="Ascon_top_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="Ascon_top.rcfi"/>
+  <File Type="CFI_FILE" Name="Ascon_top.cfi"/>
+  <File Type="RNPI_FILE" Name="Ascon_top.rnpi"/>
+  <File Type="NPI_FILE" Name="Ascon_top.npi"/>
+  <File Type="RBD_FILE" Name="Ascon_top.rbd"/>
+  <File Type="ROUTE-RQS" Name="Ascon_top_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="Ascon_top_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <File Type="MMI-FILE" Name="Ascon_top.mmi"/>
+  <File Type="BIF-FILE" Name="Ascon_top.bif"/>
+  <File Type="BOOT-BIF-FILE" Name="Ascon_top_boot.bif"/>
+  <File Type="PL-BIF-FILE" Name="Ascon_top_pld.bif"/>
+  <File Type="LTX-FILE" Name="Ascon_top.ltx"/>
+  <File Type="BOOT-LTX-FILE" Name="Ascon_top_boot.ltx"/>
+  <File Type="PL-LTX-FILE" Name="Ascon_top_pld.ltx"/>
+  <File Type="RCDO-FILE" Name="Ascon_top.rcdo"/>
+  <File Type="MARKER-RCDO-FILE" Name="Ascon_top_markers.rcdo"/>
+  <File Type="PL-RCDO-FILE" Name="Ascon_top_pld.rcdo"/>
+  <File Type="MARKER-RNPI-FILE" Name="Ascon_top_markers.rnpi"/>
+  <File Type="BOOT_RNPI_FILE" Name="Ascon_top_boot.rnpi"/>
+  <File Type="PL_RNPI_FILE" Name="Ascon_top_pld.rnpi"/>
+  <File Type="BOOT_MARKER_RNPI_FILE" Name="Ascon_top_boot_markers.rnpi"/>
+  <File Type="PL_MARKER_RNPI_FILE" Name="Ascon_top_pld_markers.rnpi"/>
+  <File Type="PL_MASK_RNPI_FILE" Name="Ascon_top_pld_mask.rnpi"/>
+  <File Type="PL_SHUTDOWN_RNPI_FILE" Name="Ascon_top_pld_shutdown.rnpi"/>
+  <File Type="PL_UNMASK_RNPI_FILE" Name="Ascon_top_pld_unmask.rnpi"/>
+  <File Type="PL-CLEAR-RCDO-FILE" Name="Ascon_top_pld_clear.rcdo"/>
+  <File Type="PL_MARKER_RCDO_FILE" Name="Ascon_top_pld_markers.rcdo"/>
+  <File Type="PL_MASK_RCDO_FILE" Name="Ascon_top_pld_mask.rcdo"/>
+  <File Type="PL_UNMASK_MARKER_RCDO_FILE" Name="Ascon_top_pld_unmask_markers.rcdo"/>
+  <File Type="PL_UNMASK_RCDO_FILE" Name="Ascon_top_pld_unmask.rcdo"/>
+  <File Type="NOC_TRAFFIC_SPEC_FILE" Name="Ascon_top.nts"/>
+  <File Type="NOC_SOLUTION_FILE" Name="Ascon_top.ncr"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_ascon/ascon_pack.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/Sources_ascon/ascon_pack.sv"/>
+        <Attr Name="ImportTime" Val="1771849848"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_ascon/Pc.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/Sources_ascon/Pc.sv"/>
+        <Attr Name="ImportTime" Val="1771849848"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_ascon/Permutation.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/Sources_ascon/Permutation.sv"/>
+        <Attr Name="ImportTime" Val="1771849848"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_ascon/Pl.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/Sources_ascon/Pl.sv"/>
+        <Attr Name="ImportTime" Val="1771849848"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_ascon/Ps.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/Sources_ascon/Ps.sv"/>
+        <Attr Name="ImportTime" Val="1771849848"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_ascon/Sbox.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/Sources_ascon/Sbox.sv"/>
+        <Attr Name="ImportTime" Val="1771849848"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_ascon/ascon.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/Sources_ascon/ascon.sv"/>
+        <Attr Name="ImportTime" Val="1771849848"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/source/uart_pkg.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/uart_pkg.sv"/>
+        <Attr Name="ImportTime" Val="1770814336"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/source/baud_generator.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/baud_generator.sv"/>
+        <Attr Name="ImportTime" Val="1770814336"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_ascon/compteur_double_init.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/Sources_ascon/compteur_double_init.sv"/>
+        <Attr Name="ImportTime" Val="1771849848"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cpt.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/drive_ascon.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fsm_dcompteur.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_ascon/fsm_moore.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/Sources_ascon/fsm_moore.sv"/>
+        <Attr Name="ImportTime" Val="1771849848"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fsm_uart.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_ascon/mux_state.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/Sources_ascon/mux_state.sv"/>
+        <Attr Name="ImportTime" Val="1771849848"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/source/receive.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/receive.sv"/>
+        <Attr Name="ImportTime" Val="1773847794"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/source/reg_sel.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/reg_sel.sv"/>
+        <Attr Name="ImportTime" Val="1770814336"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/reg_shift_sv.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_ascon/register_w_en.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/Sources_ascon/register_w_en.sv"/>
+        <Attr Name="ImportTime" Val="1771849848"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/source/rx_reg.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/rx_reg.sv"/>
+        <Attr Name="ImportTime" Val="1770814336"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/source/rxbit_dcounter.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/rxbit_dcounter.sv"/>
+        <Attr Name="ImportTime" Val="1770814336"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_ascon/state_register_w_en.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/Sources_ascon/state_register_w_en.sv"/>
+        <Attr Name="ImportTime" Val="1771849848"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/trans_receive.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/source/transmit.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/transmit.sv"/>
+        <Attr Name="ImportTime" Val="1770814336"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/source/tx_reg.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/tx_reg.sv"/>
+        <Attr Name="ImportTime" Val="1770814336"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/source/txbit_dcounter.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/txbit_dcounter.sv"/>
+        <Attr Name="ImportTime" Val="1770814336"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/source/uart_core.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab2_cmd_read_analyseur_logique/lab2_cmd_read_analyseur_logique.srcs/sources_1/imports/source/uart_core.sv"/>
+        <Attr Name="ImportTime" Val="1770814336"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_ascon/xor_begin_perm.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/Sources_ascon/xor_begin_perm.sv"/>
+        <Attr Name="ImportTime" Val="1771849848"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_ascon/xor_end_perm.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/Sources_ascon/xor_end_perm.sv"/>
+        <Attr Name="ImportTime" Val="1771849848"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Ascon_top.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Ascon_top"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/ctr_top.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/ascon.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz"/>
+  <BlockFileSet Type="BlockSrcs" Name="ila_0"/>
+</GenRun>
